@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>야구 구단 테스트</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset=“utf-8”/>
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="text/javascript" src="/js/baseball.js"></script> 
+</head>
+<style>
+</style>
+<script>
+
+</script>
+<body>
+    <h1>야구 구단 테스트</h1>
+    <div id="view1">
+        <p>다음 질문에 대한 답변을 선택하세요:</p>
+        <div class="question">
+            <p>1. 수도권에 거주하십니까?</p>
+            <label>
+                <input type="radio" name="question1" value="A"> 예
+            </label>
+            <label>
+                <input type="radio" name="question1" value="B"> 아니오
+            </label>
+        </div>
+    
+        <div class="question">
+            <p>2. 거주지와 가까운 홈 구단을 선호하십니까?</p>
+            <label>
+                <input type="radio" name="question2" value="A"> 예
+            </label>
+            <label>
+                <input type="radio" name="question2" value="B"> 아니오
+            </label>
+        </div>
+    
+        <div class="question">
+            <p>3. 귀여운 마스코트가 있는 구단을 선호하십니까?</p>
+            <label>
+                <input type="radio" name="question3"> 예
+            </label>
+            <label>
+                <input type="radio" name="question3"> 아니오
+            </label>
+        </div>
+        
+        <div class="question">
+            <p>4. 창립된지 오래된 구단을 선호하십니까?</p>
+            <label>
+                <input type="radio" name="question4" value="A"> 예
+            </label>
+            <label>
+                <input type="radio" name="question4" value="B"> 아니오
+            </label>
+        </div>
+    
+        <div class="question">
+            <p>5. 다양한 이벤트가 있는 구단을 선호하십니까?</p>
+            <label>
+                <input type="radio" name="question5"> 예
+            </label>
+            <label>
+                <input type="radio" name="question5"> 아니오
+            </label>
+        </div>
+    
+        <div class="question">
+            <p>6. 잘생긴 선수가 많은 구단을 선호하십니까?</p>
+            <label>
+                <input type="radio" name="question6"> 예
+            </label>
+            <label>
+                <input type="radio" name="question6"> 아니오
+            </label>
+        </div>
+    
+        <div class="question">
+            <p>7. 귀여운 선수가 많은 구단을 선호하십니까?</p>
+            <label>
+                <input type="radio" name="question7"> 예
+            </label>
+            <label>
+                <input type="radio" name="question7"> 아니오
+            </label>
+        </div>
+    
+        <div class="question">
+            <p>8. 감독의 역량이 무엇보다 중요하다고 생각 하십니까?</p>
+            <label>
+                <input type="radio" name="question8"> 예
+            </label>
+            <label>
+                <input type="radio" name="question8"> 아니오
+            </label>
+        </div>
+    
+        <div class="question">
+            <p>9. 구단 유튜브나 인스타 등 다양한 매체를 통해 접하고 싶으십니까?</p>
+            <label>
+                <input type="radio" name="question9"> 예
+            </label>
+            <label>
+                <input type="radio" name="question9"> 아니오
+            </label>
+        </div>
+    
+        <div class="question">
+            <p>10. 선수 연령대가 낮은 구단을 선호하십니까?</p>
+            <label>
+                <input type="radio" name="question10"> 예
+            </label>
+            <label>
+                <input type="radio" name="question10"> 아니오
+            </label>
+        </div>
+    
+        
+        <div class="question">
+            <p>11. 팬 연령대가 낮은 구단을 선호하십니까?</p>
+            <label>
+                <input type="radio" name="question11"> 예
+            </label>
+            <label>
+                <input type="radio" name="question11"> 아니오
+            </label>
+        </div>
+    
+        <div class="question">
+            <p>12. 응원 문화가 활발한 구단을 선호하십니까?</p>
+            <label>
+                <input type="radio" name="question12"> 예
+            </label>
+            <label>
+                <input type="radio" name="question12"> 아니오
+            </label>
+        </div>
+    
+        <div class="question">
+            <p>13. 현재의 승리보다 유망주 육성이 중요하다 생각하십니까?</p>
+            <label>
+                <input type="radio" name="question13"> 예
+            </label>
+            <label>
+                <input type="radio" name="question13"> 아니오
+            </label>
+        </div>
+    
+        <div class="question">
+            <p>14. 타격전보다 투수전을 더 선호하십니까?</p>
+            <label>
+                <input type="radio" name="question14"> 예
+            </label>
+            <label>
+                <input type="radio" name="question14"> 아니오
+            </label>
+        </div>
+    
+        <div class="question">
+            <p>15. 우승 경험이 많은 구단을 선호하십니까?</p>
+            <label>
+                <input type="radio" name="question15" value="A"> 예
+            </label>
+            <label>
+                <input type="radio" name="question15" value="B"> 아니오
+            </label>
+        </div>
+    
+        <div class="question">
+            <p>16. 팬 수가 많은 구단을 선호하십니까?</p>
+            <label>
+                <input type="radio" name="question16" value="A"> 예
+            </label>
+            <label>
+                <input type="radio" name="question16" value="B"> 아니오
+            </label>
+        </div>
+    
+        <div class="question">
+            <p>17. 팀분위기가 자유로운 구단을 선호하십니까?</p>
+            <label>
+                <input type="radio" name="question17"> 예
+            </label>
+            <label>
+                <input type="radio" name="question17"> 아니오
+            </label>
+        </div>
+    
+        <div class="question">
+            <p>18. 직관을 자주 가고 싶으십니까?</p>
+            <label>
+                <input type="radio" name="question18"> 예
+            </label>
+            <label>
+                <input type="radio" name="question18"> 아니오
+            </label>
+        </div>
+    
+        <div class="question">
+            <p>19. 지역색이 뚜렷한 구단을 선호하십니까?</p>
+            <label>
+                <input type="radio" name="question19" value="A"> 예
+            </label>
+            <label>
+                <input type="radio" name="question19" value="B"> 아니오
+            </label>
+        </div>
+    
+        <div class="question">
+            <p>20. 스몰볼보다 빅볼야구를 선호하십니까?</p>
+            <label>
+                <input type="radio" name="question20" value="A"> 예
+            </label>
+            <label>
+                <input type="radio" name="question20" value="B"> 아니오
+            </label>
+        </div><br>
+    
+        <button id="submitBtn" class="submitBtn">제출</button>
+    </div>
+
+    <div id="view2" style="display: none;">    
+        <div id="result">
+            <p>당신의 선호 구단은?</p>
+        </div>
+        <button id="repBtn" class="repBtn" onclick="replay()">다시하기</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+
+#view2 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#result {
+    text-align: center;
+}
+
+#result img {
+    display: inline-block;
+}
+
+.repBtn {
+    display: block;
+    margin: 10px auto;
+}
